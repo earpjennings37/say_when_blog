@@ -1,4 +1,4 @@
-# Area where details/code around of blog posts, check it - 
+# Area where code around of blog exist - 
 Includes, but not limited too:
 - AWS
 - CICD Tooling
