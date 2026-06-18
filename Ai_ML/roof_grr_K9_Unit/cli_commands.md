@@ -1,6 +1,7 @@
 # Pre-Req Stuff To-Do List:
-https://k9scli.io/topics/install/
-https://github.com/derailed/k9s
+1. https://k9scli.io/topics/install/
+
+2. https://github.com/derailed/k9s
 
 # Install K9s!
 https://brew.sh/
