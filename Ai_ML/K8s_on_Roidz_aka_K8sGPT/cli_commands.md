@@ -53,12 +53,15 @@ a. Commands to check your deployment
 - k8sgpt analyse --filter=VulnerabilityReport
 - vi deployment2
 - kubectl apply -f deployment2 -n demo
+
 b. Notice an error?
 ![alt text](image-2.png)
 - Change under securitycontext: readOnlyRootFilesystem: False
 - FIXED!!
+
 ![alt text](image-3.png)
 - Port-Forward to ensure pod access
+
 ![alt text](image-4.png)
 
 # 7. K8s Operator:
@@ -108,10 +111,14 @@ kubectl apply -f k8sgpt-resource.yaml -n k8sgpt-operator-system k9s
 - services, shift-f, port-forward prometheus-operated:9090
 - kubectl get results -n k8sgpt-operator-system
 - kubectl port-forward service/prom-grafana -n prom 3000:80
+
 ![alt text](image-5.png)
 - To find Grafana Password; secrets & press-x
+
 ![alt text](image-6.png)
 - Prometheus
+
 ![alt text](image-7.png)
 - Grafana
+
 ![alt text](image-8.png)
