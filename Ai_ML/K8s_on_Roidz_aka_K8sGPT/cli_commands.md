@@ -22,6 +22,7 @@ c. K8sgpt
 - k8sgpt generate
 - k8sgpt auth add openai
 - k8sgpt auth list
+
 ![alt text](image.png)
 
 # 3. Troubleshoot why deployment maybe NOT running:
@@ -40,6 +41,7 @@ c. K8sgpt
 - kubectl apply -f deployment2 -n demo
 - k8sgpt analyse
 - k8sgpt analyse --explain
+
 ![alt text](image-1.png)
 
 # 6. Commands to set pods, deployments:
