@@ -1,5 +1,7 @@
 #############
-##README - Infra Repo##
+#############
+## README - Infra Repo ##
+#############
 #############
 # Thanos IRSA Setup (Terraform)
 
@@ -36,7 +38,9 @@ terraform init
 terraform apply
 
 #############
-##README - GitOps Repo##
+#############
+## README - GitOps Repo ##
+#############
 #############
 
 # Thanos Deployment (GitOps)
